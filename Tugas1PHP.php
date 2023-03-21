@@ -42,8 +42,8 @@
             echo '<br> Tinggi :' .$tinggi;
             echo '<br> Sisi Miring :' .$simir;
             echo '<hr>';
-            echo '<br> Luas Jajar Genjang : ' .$luas_jajar_genjang. 'cm<sup>2</sup>';
-            echo '<br> Keliling Jajar Genjang : ' .$keliling. 'cm';
+            echo '<br> Luas Jajar Genjang : ' .$luas_jajar_genjang. ' cm<sup>2</sup>';
+            echo '<br> Keliling Jajar Genjang : ' .$keliling. ' cm';
         }
 
 
