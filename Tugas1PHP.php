@@ -42,7 +42,6 @@
             $luas_jajar_genjang = 0.5*$alas*$tinggi;
             $keliling = 2*($simir+$alas);
 
-<<<<<<< HEAD
             echo '<form>';
             echo '<table>';
             echo '<br><tr><td>Diketahui :</td></tr>';
@@ -58,15 +57,6 @@
             echo '<td> :' .$keliling. 'cm</td></tr>' ;
             echo '</table>';
             echo '</form>';
-=======
-            echo '<br> Diketahui :';
-            echo '<br> Alas :' .$alas ;
-            echo '<br> Tinggi :' .$tinggi;
-            echo '<br> Sisi Miring :' .$simir;
-            echo '<hr>';
-            echo '<br> Luas Jajar Genjang : ' .$luas_jajar_genjang. ' cm<sup>2</sup>';
-            echo '<br> Keliling Jajar Genjang : ' .$keliling. ' cm';
->>>>>>> 76bcfdd5294afe5927e56ff25ba82c960661f8e5
         }
 
 
