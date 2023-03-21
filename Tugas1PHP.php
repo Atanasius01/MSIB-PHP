@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas PHP</title>
 </head>
+<style>
+    body{
+        
+    }
+</style>
 <body>
     <h1>Perhitungan Luas dan Keliling Jajar Genjang</h1>
     <form action="" method="POST">
@@ -20,7 +25,7 @@
             </tr>
             <tr>
                 <td>Sisi Miring :</td>
-                <td><input type="number" name="simir" require></td>
+                <td><input type="number" name="simir" value="0"></td>
             </tr>
             <tr>
                 <td><input type="submit" name="submit" value="Hitung"></td>
@@ -35,15 +40,23 @@
             $simir = $_POST['simir'];
 
             $luas_jajar_genjang = 0.5*$alas*$tinggi;
-            $keliling = 2*($simir+$alas );
+            $keliling = 2*($simir+$alas);
 
-            echo '<br> Diketahui :';
-            echo '<br> Alas :' .$alas ;
-            echo '<br> Tinggi :' .$tinggi;
-            echo '<br> Sisi Miring :' .$simir;
-            echo '<hr>';
-            echo '<br> Luas Jajar Genjang : ' .$luas_jajar_genjang. 'cm<sup>2</sup>';
-            echo '<br> Keliling Jajar Genjang : ' .$keliling. 'cm';
+            echo '<form>';
+            echo '<table>';
+            echo '<br><tr><td>Diketahui :</td></tr>';
+            echo '<br> <tr><td>Alas </td>' ;
+            echo '<td> :' .$alas. 'cm</td></tr>' ;
+            echo '<br> <tr><td>Tinggi </td>' ;
+            echo '<td> :' .$tinggi. 'cm</td></tr>' ;
+            echo '<br> <tr><td>Sisi Miring </td>' ;
+            echo '<td> :' .$simir. 'cm</td></tr>' ;
+            echo '<br> <tr><td>Luas Jajar Genjang </td>' ;
+            echo '<td> :' .$luas_jajar_genjang. 'cm<sup>2</sup></td></tr>' ;
+            echo '<br> <tr><td>Keliling Jajar Genjang </td>' ;
+            echo '<td> :' .$keliling. 'cm</td></tr>' ;
+            echo '</table>';
+            echo '</form>';
         }
 
 
