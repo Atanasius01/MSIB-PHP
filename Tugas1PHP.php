@@ -28,7 +28,7 @@
                 <td><input type="number" name="simir" value="0"></td>
             </tr>
             <tr>
-                <td><input type="submit" name="submit" value="Hitung"></td>
+                <td><input type="submit" name="submit" value="Hitung" ></td>
             </tr>
         </table>
     </form>
