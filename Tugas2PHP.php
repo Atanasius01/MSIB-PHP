@@ -54,7 +54,7 @@
     </form>
 
     <?php
-
+    error_reporting(0);
     $nama = $_POST['nama'];
     $jabatan = $_POST['jabatan'];
     $anak = $_POST['anak'];
@@ -88,15 +88,21 @@
         $gaji_bersih = $gaji_kotor-$zakat_profesi;
     ?>
 
-    Nama : <?= $nama?>
-   <br> Agama : <?= $agama?>
-   <br> Jumlah Anak : <?= $anak?>
-    <br> Gaji : Rp.<?= $gapok?>
-    <br>Tunjangan Jabatan : Rp.<?= $tunjangan_jabatan?>
-    <br>Tunjangan Keluarga : Rp. <?= $tunjaga?>
-    <br>Gaji Kotor : Rp.<?= $gaji_kotor?>
-    <br>Zakat : Rp.<?= $zakat_profesi?>
-    <br>Gaji Bersih :  Rp.<?= $gaji_bersih?>
+<form>
+    <table>
+   <tr><td>Nama : </td> <td><?= $nama?></td>
+   </tr> 
+   <tr><td><br> Agama : </td> <td><?= $agama?></td></tr> 
+   <tr><td><br> Jumlah Anak : </td> <td><?= $anak?>
+   <tr><td><br> Gaji : </td> <td> Rp.<?= $gapok?>
+   <tr><td> <br>Tunjangan Jabatan : </td> <td> Rp.<?= $tunjangan_jabatan?></td></tr> 
+   <tr><td> <br>Tunjangan Keluarga : </td> <td> Rp. <?= $tunjaga?></td></tr> 
+   <tr><td><br>Gaji Kotor : </td> <td> Rp.<?= $gaji_kotor?></td></tr> 
+   <tr><td><br>Zakat : </td> <td> Rp.<?= $zakat_profesi?></td></tr> 
+   <tr><td> <br>Gaji Bersih : </td> <td> Rp.<?= $gaji_bersih?></td></tr> 
+    </table>
+</form>
     <?php } ?>
+
 </body>
 </html>
