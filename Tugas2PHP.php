@@ -93,8 +93,8 @@
     <br>Tunjangan Keluarga : Rp. <?= $tunjaga?>
     <br>Gaji Kotor : Rp.<?= $gaji_kotor?>
     <br>Zakat : Rp.<?= $zakat_profesi?>
-    <br>Gaji Bersih :  Rp.<?= $gaji_bersih?>
+    <br>Gaji Bersih (Take Home Pay) :  Rp.<?= $gaji_bersih?>
     <?php } ?>
-    
+
 </body>
 </html>
