@@ -9,9 +9,18 @@ else if ($nilai >= 30 && $nilai <=59) $grade = "D";
 else if ($nilai >= 0 && $nilai <=29) $grade = "E";
 else $grade = "";
 
+switch ($grade){
+    case "A" : $predikat = "Memuaskan"; break;
+    case "B" : $predikat = "Baik"; break;
+    case "C" : $predikat = "Cukup Baik"; break;
+    case "D" : $predikat = "Kurang Baik"; break;
+    case "E" : $predikat = "Sangat Kurang"; break;
+    default : $predikat = "";
+}
 
 ?>
 
 Nama : <?= $nama ?>
 <br> Nilai : <?= $nilai ?>
 <br> Grade : <?=$grade?>
+<br> Predikat : <?= $predikat?>
