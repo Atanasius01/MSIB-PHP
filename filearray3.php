@@ -26,7 +26,7 @@ $keterangan_hasil = [
 
 ?>
 
-<table border="px" width="100%">
+<table border="1px" width="100%">
 <thead>
     <tr bgcolor="yellow">
         <?php
