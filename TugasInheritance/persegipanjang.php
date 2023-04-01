@@ -42,6 +42,18 @@ public function cetak(){
     echo '</td>';
     echo '</tr>';
     echo '<tr>';
+    echo '<td>Panjang';
+    echo '</td>';
+    echo '<td>'.$this->panjang. ' cm<sup>2</sup>';
+    echo '</td>';
+    echo '</tr>';
+    echo '<tr>';
+    echo '<td>Lebar';
+    echo '</td>';
+    echo '<td>'.$this->lebar. ' cm<sup>2</sup>';
+    echo '</td>';
+    echo '</tr>';
+    echo '<tr>';
     echo '<td>Luas';
     echo '</td>';
     echo '<td>'.$this->luasBidang(). ' cm<sup>2</sup>';

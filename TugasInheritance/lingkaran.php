@@ -40,6 +40,12 @@ public function cetak(){
     echo '</td>';
     echo '</tr>';
     echo '<tr>';
+    echo '<td>Jari-jari';
+    echo '</td>';
+    echo '<td>'.$this->jari. ' cm';
+    echo '</td>';
+    echo '</tr>';
+    echo '<tr>';
     echo '<td>Luas';
     echo '</td>';
     echo '<td>'.$this->luasBidang(). ' cm<sup>2</sup>';
